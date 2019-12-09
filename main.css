@@ -92,9 +92,9 @@
 
   #hero-leaf {
     padding: 5% 5% 5% 0%;
-    background: #FAFAFA;
+    background: #FFFFFF;
     background-image: url(images/Leaf.jpg);
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
   }
