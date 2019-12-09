@@ -3,39 +3,39 @@
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 1.25em;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family: 'Muli', sans-serif;
+    font-size: 1.6em;
     color: #444;
     text-align: center;
     line-height: 1.5;
   }
-  
+
+  p {
+    font-family: 'Muli', sans-serif;
+  }
+
   h1 {
     font-size: 2.25em;
+    font-family: 'Philosopher', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Philosopher', sans-serif;
   }
 
   nav,
   footer {
+    font-family: 'Muli', sans-serif;
+    font-size: 1em;
     display: block;
-    /*border: 1px solid #555;*/
     border: 1px solid lightgrey;
     padding: 1% 0;
-    /*background-color: #aaa;*/
     background-color: #E8E8E8;
     width: 100%;
   }
   
-
   /* HOME PAGE */
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-  
   main {
     display: flex;
     flex-direction: column;
@@ -49,14 +49,45 @@
     background-repeat: no-repeat;
   }
 
+  #hello {
+    padding: 40% 0 0 0;
+  }
+
+  #intro {
+    padding: 0% 9% 20% 9%; 
+    font-size: 1.25em;
+  }
+
+  /* ABOUT ME PAGE */
+  #bio {
+    font-family: 'Muli', sans-serif;
+    padding: 10% 10% 10% 10%;
+    text-align: left;
+    line-height: 1.5;
+  }
+
   #hero-glasses {
     padding: 5% 5% 5% 5%;
     background: #FFFFFE;
     background-image: url(images/Glasses.jpg);
-    background-size: 70%;
-    background-position: 160% 10%;
+    background-size: 60%;
+    background-position: 150% 10%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+  }
+
+  /* PORTFOLIO PAGE */
+  #portfolio-header {
+    margin: 20% 0% 0% 0%;
+  }
+
+  .portfolio-text, .bullet {
+    text-align: left;
+    margin: 0% 5% 0% 5%;
+  }
+
+  .bullet {
+    margin: 2% 5% 2% 5%;
   }
 
   #hero-leaf {
@@ -68,31 +99,6 @@
     background-position: top center;
   }
 
-  #hello {
-    padding: 40% 0 0 0;
-    height: 100%;
-  }
-
-  #intro {
-    padding: 5% 15% 20% 15%; 
-    height: 100%;
-  }
-
-
-  /* ABOUT ME PAGE */
-  #bio {
-    padding: 10% 20% 10% 20%;
-    text-align: left;
-  }
-
-  /* PORTFOLIO PAGE */
-  #portfolio-header {
-    margin: 20% 0% 0% 0%;
-  }
-
-  .portfolio-text {
-    text-align: left;
-  }
  
   /* BUTTONS */
   .button {
@@ -104,7 +110,6 @@
     padding: 0% 5% 0% 5%;
     margin: 0 2% 0% 2%;
     font-size: 1em;
-    /*font-weight: bold;*/
     font-family: Arial Helvetica, sans-serif;
     text-align: center;
     color: black;
@@ -112,7 +117,6 @@
     width: 20%;
     background: none;
     border: none;
-    /*background-color: #CCCCCCCF;*/
   }
 
   .button:active {
@@ -122,8 +126,8 @@
   }
 
   .button:hover {
-    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-    background-color:#dfdfdf;
+    color: darkgreen;
+    font-weight: bold;
   }
 
 
