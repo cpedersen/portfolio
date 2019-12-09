@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   
   body {
-    /*font-family: "Open Sans", sans-serif;*/
     font-family: 'Muli', sans-serif;
     font-size: 1.6em;
     color: #444;
@@ -13,6 +14,7 @@
 
   p {
     font-family: 'Muli', sans-serif;
+    padding: 5% 0 0 0;
   }
 
   h1 {
@@ -24,17 +26,57 @@
     font-family: 'Philosopher', sans-serif;
   }
 
-  nav,
-  footer {
+  /* NAV */
+  nav, footer {
     font-family: 'Muli', sans-serif;
     font-size: 1em;
-    display: block;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     border: 1px solid lightgrey;
     padding: 1% 0;
     background-color: #E8E8E8;
     width: 100%;
   }
+    
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    font-family: 'Muli', sans-serif;
+    width: 60px;
+    list-style-type: none;
+    margin: 0;
+  }
   
+  .li-links {
+    padding: 0 15% 0 15%;
+  }
+
+  .link1 {
+    float: left;
+  }
+
+  .link2 {
+    float: left;
+  }
+
+  .link3 {
+    float: right;
+  }
+
+  .link4 {
+    float: right;
+  }
+
+  footer {
+    height: 2.5em;
+  }
+
   /* HOME PAGE */
   main {
     display: flex;
@@ -50,7 +92,7 @@
   }
 
   #hello {
-    padding: 40% 0 0 0;
+    padding: 40% 0 5% 0;
   }
 
   #intro {
