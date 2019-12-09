@@ -1,0 +1,126 @@
+#hello-text {
+    text-shadow: 1px -2px 0 #767676;
+    color: #131313;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.15em;
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px darkgreen
+  }
+  
+
+
+/* RESIZE SCREENS USING MEDIA QUERIES */
+/* Small phone screens */
+@media only screen and (max-width: 600px) 
+  {
+}
+
+
+  
+/* Large phone screens and portrait tablets */
+@media only screen and (min-width:600px) 
+  {
+}
+  
+  /* Landscape tablets */
+@media only screen and (min-width:768px) 
+  {
+}
+  
+  /* Laptops/desktops */
+@media only screen and (min-width:992px) 
+  {
+}
+
+
+
+
+
+
+
+  /* RESIZE SCREENS USING MEDIA QUERIES */
+/* Small phone screens */
+@media only screen and (min-width: 320px) and (max-width: 374px)
+{
+
+  body {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2.25em;
+  }
+  
+  #hero {
+    background-size: 250%;
+  }
+
+  #hello {
+    height: 50%;
+    color: purple;
+  }
+
+  #intro {
+    height: 100%;
+  }
+}
+
+
+/* Large phone screens: iPhone x */
+@media only screen and (max-width: 375px)
+  {
+    body {
+      font-size: 1.2em;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+      
+    #hero {
+      background-size: 325%;;
+    }
+  
+    #hello {
+      padding: 90% 0 0 0;
+      color: red;
+    }
+  
+    #intro {
+      padding: 10% 4% 40% 3%;
+    }
+}
+
+  /* Desktops */
+/*@media only screen and (max-width: 1080px) 
+  {
+    body {
+      font-size: 3em;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+      
+    #hero {
+      background-size: 245%;;
+    }
+  
+    #hello {
+      padding: 50% 0 0 0;
+      color: orange;
+    }
+  
+    #intro {
+      padding: 10% 4% 30% 3%;
+    }
+}*/
+  
+
+
+
+
+
+
+
+
+

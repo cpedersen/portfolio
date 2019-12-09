@@ -1,0 +1,1 @@
+<img src="images/KeyboardAndCoffee.jpg" alt="Keyboard, coffee, mouse, and notepad" id="keyboard">

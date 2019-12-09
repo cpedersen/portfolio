@@ -5,18 +5,29 @@
   body {
     font-family: "Open Sans",
     sans-serif; 
-    font-size: 20px;
+    font-size: 1.25em;
     color: #444;
     text-align: center;
     line-height: 1.5;
   }
   
+  h1 {
+    font-size: 2.25em;
+  }
+
   nav,
   footer {
+    display: block;
+    /*border: 1px solid #555;*/
+    border: 1px solid lightgrey;
     padding: 1% 0;
-    background-color: #aaa;
+    /*background-color: #aaa;*/
+    background-color: #E8E8E8;
+    width: 100%;
   }
   
+
+  /* HOME PAGE */
   nav {
     position: fixed;
     top: 0;
@@ -25,36 +36,94 @@
     z-index: 10;
   }
   
-  header {
-    padding: 5% 0;
-  }
-
-  h1 {
-    font-size: 2.25em;
-  }
-  
-  #container {
+  main {
     display: flex;
     flex-direction: column;
-    /*min-height: 200px;*/
-    justify-content: space-evenly;
+  }
+
+  #hero-home {
+    padding: 5% 5% 5% 5%;
+    background: #F5F5F5;
+    background-image: url(images/MonitorKeyboard.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #hero-glasses {
+    padding: 5% 5% 5% 5%;
+    background: #FFFFFE;
+    background-image: url(images/Glasses.jpg);
+    background-size: 70%;
+    background-position: 160% 10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #hero-leaf {
+    padding: 5% 5% 5% 0%;
+    background: #FAFAFA;
+    background-image: url(images/Leaf.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top center;
   }
 
   #hello {
-    padding: 0 0 0 0;
+    padding: 40% 0 0 0;
+    height: 100%;
   }
 
   #intro {
-    padding: 0% 30% 0% 30%; 
+    padding: 5% 15% 20% 15%; 
+    height: 100%;
   }
 
-  #keyboard {
+
+  /* ABOUT ME PAGE */
+  #bio {
+    padding: 10% 20% 10% 20%;
+    text-align: left;
+  }
+
+  /* PORTFOLIO PAGE */
+  #portfolio-header {
+    margin: 20% 0% 0% 0%;
+  }
+
+  .portfolio-text {
+    text-align: left;
+  }
+ 
+  /* BUTTONS */
+  .button {
+    display: inline-block;
+    width: 5%;
     margin: auto;
-    height: 400px;
-    width: auto;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0% 5% 0% 5%;
+    margin: 0 2% 0% 2%;
+    font-size: 1em;
+    /*font-weight: bold;*/
+    font-family: Arial Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    height: 2em;
+    width: 20%;
+    background: none;
+    border: none;
+    /*background-color: #CCCCCCCF;*/
   }
 
-  footer {
-    background-color: #aaa;
+  .button:active {
+    position: relative;
+    top: 1px;
+	  color: darkgreen;
   }
+
+  .button:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color:#dfdfdf;
+  }
+
 
