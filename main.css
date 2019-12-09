@@ -18,7 +18,7 @@
   }
 
   h1 {
-    font-size: 2.25em;
+    font-size: 2em;
     font-family: 'Philosopher', sans-serif;
   }
 
@@ -66,7 +66,7 @@
   }
 
   .link3 {
-    
+
   }
 
   .link4 {
@@ -116,6 +116,31 @@
     background-position: 150% 10%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+  }
+
+  /* CONTACT PAGE */
+  #hero-keyboard-mouse {
+    background: #FFFFFE;
+    background-image: url(images/KeyboardMouse.jpg);
+    background-size: 110%;
+    background-position: 140% 8%;
+    background-attachment: relative;
+    background-repeat: no-repeat;
+  }
+
+  #contact-text {
+    font-family: 'Muli', sans-serif;
+    padding: 20% 10% 10% 10%;
+    line-height: 1;
+  }
+
+  #contact-me {
+    font-size: 1.5em;
+  }
+
+  .contact-item {
+    text-align: left;
+    font-size: 1em;
   }
 
   /* PORTFOLIO PAGE */
