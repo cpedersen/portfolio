@@ -40,13 +40,17 @@
     background-color: #E8E8E8;
     width: 100%;
   }
+
+  footer {
+    /*height: 2.5em;*/
+    height: 1000px;
+  }
     
   .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-
     font-family: 'Muli', sans-serif;
     width: 60px;
     list-style-type: none;
@@ -71,10 +75,6 @@
 
   .link4 {
 
-  }
-
-  footer {
-    height: 2.5em;
   }
 
   /* HOME PAGE */
@@ -170,7 +170,7 @@
   /* BUTTONS */
   .button {
     display: inline-block;
-    width: 5%;
+    /*width: 20%;*/
     margin: auto;
     white-space: nowrap;
     cursor: pointer;
@@ -181,7 +181,6 @@
     text-align: center;
     color: black;
     height: 2em;
-    width: 20%;
     background: none;
     border: none;
   }
@@ -194,7 +193,7 @@
 
   .button:hover {
     color: darkgreen;
-    font-weight: bold;
+    /*font-weight: bold;*/
   }
 
 
