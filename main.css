@@ -46,7 +46,6 @@
     font-family: 'Muli', sans-serif;
     font-size: 1em;
     display: flex;
-    /*display: -webkit-flex;*/
     justify-content: space-between;
     align-items: center;
     border: 1px solid lightgrey;
@@ -84,22 +83,6 @@
     padding: 0 30% 0 30%;
   }
 
-  .link1 {
-
-  }
-
-  .link2 {
-
-  }
-
-  .link3 {
-
-  }
-
-  .link4 {
-
-  }
-
   /* HOME PAGE */
   main {
     display: flex;
@@ -132,7 +115,7 @@
   }
 
   #bio-header {
-    padding: 0 0 5% 0;
+    padding: 5% 0 5% 0;
   }
 
   .bio-text {
@@ -262,20 +245,11 @@
 
   .links {
     width: 3%;
-    display: none;
+    font-style: italic;
   }
 
-  nav ul {
-    display: none;
-    align-items: left;
-    text-align: left;
-    padding: 2% 0 2% 0;
-    margin: 2% 2% 2% 2%;
-  }
-
-  .hamburger {
-    display: block;
-    position: relative;
+  nav, footer {
+    font-size: .7em;
   }
 
   #darkMoneyImg {
@@ -307,24 +281,17 @@
     font-size: 1em;
   }
 
-  .hamburger {
-
-  }
-
   #darkMoneyImg {
     max-height: 400px;
   }
-}
 
-
-/* Larger screens */
-@media only screen and (min-width: 651px) 
-{
-
-  .hamburger {
-    display: none;
+  nav ul {
+    font-size: 1em;
   }
 }
+
+
+
 
 
 
