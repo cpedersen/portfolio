@@ -46,7 +46,7 @@
     font-family: 'Muli', sans-serif;
     font-size: 1em;
     display: flex;
-    display: -webkit-flex;
+    /*display: -webkit-flex;*/
     justify-content: space-between;
     align-items: center;
     border: 1px solid lightgrey;
@@ -58,7 +58,17 @@
   footer {
     height: 1000px;
   }
-    
+
+  .hamburger {
+    text-align: left;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 35px;
+    width: 100%;
+    position: absolute;
+    display: none;
+  }
+
   .links {
     display: flex;
     align-items: center;
@@ -134,7 +144,7 @@
     background: #FFFFFE;
     background-image: url(images/Glasses.jpg);
     background-size: 45%;
-    background-position: 78% 0%;
+    background-position: 85% 0%;
     background-repeat: no-repeat;
   }
 
@@ -151,7 +161,6 @@
   #contact-section {
     font-family: 'Muli', sans-serif;
     padding: 20% 10% 10% 10%;
-    /*line-height: 1;*/
   }
 
   #contact-me {
@@ -168,6 +177,11 @@
   /* PORTFOLIO PAGE */
   #portfolio-header {
     margin: 20% 0% 0% 0%;
+  }
+
+  #portfolio-intro {
+    text-align: left;
+    margin: 5% 5% 5% 5%;
   }
 
   .portfolio-text, .bullet {
@@ -195,7 +209,6 @@
   /* BUTTONS */
   .button {
     display: inline-block;
-    /*width: 20%;*/
     margin: auto;
     white-space: nowrap;
     cursor: pointer;
@@ -218,7 +231,101 @@
 
   .button:hover {
     color: darkgreen;
-    /*font-weight: bold;*/
   }
+
+
+
+/* RESIZE SCREENS USING MEDIA QUERIES */
+/* Small phone screens */
+@media only screen and (max-width: 450px) 
+{
+
+  body {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.25em;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+  }
+
+  #contact-me {
+    font-size: 1.25em;
+  }
+
+  #intro {
+    font-size: 1em;
+  }
+
+  .links {
+    width: 3%;
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+    align-items: left;
+    text-align: left;
+    padding: 2% 0 2% 0;
+    margin: 2% 2% 2% 2%;
+  }
+
+  .hamburger {
+    display: block;
+    position: relative;
+  }
+
+  #darkMoneyImg {
+    max-height: 300px;
+  }
+}
+
+/* Larger screens */
+@media only screen and (max-width: 650px) 
+{
+
+  body {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.25em;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+  }
+
+  #contact-me {
+    font-size: 1.25em;
+  }
+
+  #intro {
+    font-size: 1em;
+  }
+
+  .hamburger {
+
+  }
+
+  #darkMoneyImg {
+    max-height: 400px;
+  }
+}
+
+
+/* Larger screens */
+@media only screen and (min-width: 651px) 
+{
+
+  .hamburger {
+    display: none;
+  }
+}
+
+
 
 

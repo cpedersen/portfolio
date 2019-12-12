@@ -1,7 +1,0 @@
-        <footer role="content-info">
-                <button id="email" type="button" class="button">Email</button>
-                <button id="linkedin" type="button" class="button">LinkedIn</button>
-                <button id="github" type="button" class="button">GitHub</button>      
-        </footer>
-
-            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
