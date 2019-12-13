@@ -28,17 +28,23 @@
   /* LINKS */
   a {
     color: darkgreen;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:hover {
     background-color: yellowgreen;
     transition: background-color .5s;
+    text-decoration: none;
   }
 
   a:active {
     background-color: gold;
     transition: background-color .5s;
+    text-decoration: none;
+  }
+
+  .underline {
+    text-decoration: underline;
   }
 
   /* NAV */
@@ -75,8 +81,6 @@
     font-family: 'Muli', sans-serif;
     width: 60px;
     list-style-type: none;
-    margin: 0;
-    text-decoration: none;
   }
   
   .li-links {
@@ -205,7 +209,6 @@
     height: 2em;
     background: none;
     border: none;*/
-    text-decoration: none !important;
   }
 
   .button:active {
@@ -247,7 +250,6 @@
 
   .links {
     width: 3%;
-    font-style: italic;
   }
 
   nav, footer {
