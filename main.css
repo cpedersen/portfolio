@@ -47,7 +47,6 @@
     font-size: 1em;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border: 1px solid lightgrey;
     padding: 1% 0;
     background-color: #E8E8E8;
@@ -58,7 +57,7 @@
     height: 1000px;
   }
 
-  .hamburger {
+  /*.hamburger {
     text-align: left;
     flex-grow: 0;
     flex-shrink: 0;
@@ -66,7 +65,7 @@
     width: 100%;
     position: absolute;
     display: none;
-  }
+  }*/
 
   .links {
     display: flex;
@@ -77,10 +76,12 @@
     width: 60px;
     list-style-type: none;
     margin: 0;
+    text-decoration: none;
   }
   
   .li-links {
     padding: 0 30% 0 30%;
+    white-space: nowrap;
   }
 
   /* HOME PAGE */
@@ -191,7 +192,7 @@
  
   /* BUTTONS */
   .button {
-    display: inline-block;
+    /*display: inline-block;
     margin: auto;
     white-space: nowrap;
     cursor: pointer;
@@ -203,7 +204,8 @@
     color: black;
     height: 2em;
     background: none;
-    border: none;
+    border: none;*/
+    text-decoration: none !important;
   }
 
   .button:active {
