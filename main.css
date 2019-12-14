@@ -7,7 +7,8 @@
   body {
     font-family: 'Muli', sans-serif;
     font-size: 1.6em;
-    color: #444;
+    /*color: #444;*/
+    color: black;
     text-align: center;
     line-height: 1.5;
   }
@@ -27,7 +28,7 @@
 
   /* LINKS */
   a {
-    color: darkgreen;
+    color: black;
     text-decoration: none;
   }
 
@@ -49,6 +50,17 @@
 
   /* NAV */
   nav, footer {
+    /*font-family: 'Muli', sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    padding: 1% 0;
+    background-color: #E8E8E8;
+    width: 100%;*/
+  }
+
+  footer {
     font-family: 'Muli', sans-serif;
     font-size: 1em;
     display: flex;
@@ -57,35 +69,63 @@
     padding: 1% 0;
     background-color: #E8E8E8;
     width: 100%;
-  }
-
-  footer {
     height: 1000px;
   }
 
-  /*.hamburger {
-    text-align: left;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 35px;
-    width: 100%;
-    position: absolute;
-    display: none;
+  /*footer {
+    height: 1000px;
   }*/
 
-  .links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    font-family: 'Muli', sans-serif;
-    width: 60px;
-    list-style-type: none;
+  /* Nav menu */
+  .topnav {
+    overflow: hidden;
+    /*background-color: #333;*/
+    background-color: darkgray;
+    position: relative;
+    text-align: left;
   }
-  
-  .li-links {
-    padding: 0 30% 0 30%;
-    white-space: nowrap;
+
+    /* Hide links inside nav menu except for top link */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Nav menu links */
+  .topnav a {
+    font-family: 'Muli', sans-serif;
+    /*color: white;*/
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Hamburger menu */
+  .topnav a.icon {
+    /*background: black;*/
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  /* Mouseover */
+  .topnav a:hover {
+    /*background-color: #ddd;
+    color: black;*/
+    background-color: darkgray;
+    color: white;
+    text-decoration: bold;
+  }
+
+  /* Active link */
+  .active {
+    /*background-color: darkolivegreen;
+    color: white;*/
+    background-color: lightgray; 
+    text-decoration: bold;
+    /*color: black;*/
   }
 
   /* HOME PAGE */
@@ -214,11 +254,11 @@
   .button:active {
     position: relative;
     top: 1px;
-	  color: darkgreen;
+	  /*color: darkgreen;*/
   }
 
   .button:hover {
-    color: darkgreen;
+    /*color: darkgreen;*/
   }
 
 

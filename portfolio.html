@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Philosopher&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <main>
-        <nav>
-            <ul class="links">
-                <li class="li-links button"><a href="index.html">Cathy Pedersen</a></li>
-                <li class="li-links button"><a href="aboutme.html">About</a></li>
-                <li class="li-links button"><a href="portfolio.html">Portfolio</a></li>
-                <li class="li-links button"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <a href="index.html" class="active">Introduction</a>
+            <div id="myLinks">
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <a href="aboutme.html">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <header id="hero-leaf">
             <section id="portfolio-header">
                 <h1 id="h1-portfolio">Portfolio</h1>
@@ -37,5 +41,6 @@
         <footer>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
