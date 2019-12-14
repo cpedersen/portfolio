@@ -76,19 +76,22 @@
     opacity: 0.7;
   }
 
-  .fa-linkedin {
-    background: lightgray;
-    color: darkgray;
+  .fa-linkedin-square {
+    /*background: lightgray;
+    color: darkgray;*/
+    color: black;
   }
 
   .fa-envelope {
-    background: lightgray;
-    color: darkgray;
+    /*background: lightgray;
+    color: darkgray;*/
+    color: black;
   }
 
   .fa-github {
-    background: lightgray;
-    color: darkgray;
+    /*background: lightgray;
+    color: darkgray;*/
+    color: black;
   }
 
 
@@ -96,6 +99,7 @@
   .topnav {
     overflow: hidden;
     background-color: #E8E8E8;
+    color: black;
     position: relative;
     text-align: left;
     border: 1px solid lightgrey;
