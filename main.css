@@ -106,8 +106,8 @@
     padding: 40% 0 5% 0;
   }
 
-  #intro {
-    padding: 0% 10% 10% 10%; 
+  .intro {
+    padding: 3% 10% 10% 10%; 
     font-size: 1.25em;
   }
 
@@ -159,7 +159,7 @@
   .contact-item {
     text-align: center;
     font-size: 1em;
-    padding: 5% 0 0 0;
+    padding: 3% 0 0 0;
   }
 
   /* PORTFOLIO PAGE */
@@ -178,7 +178,7 @@
   }
 
   .bullet {
-    margin: 2% 5% 2% 5%;
+    margin: 2% 5% 2% 7%;
   }
 
   #hero-leaf {
