@@ -62,10 +62,11 @@
     position: relative;
     height: 60px;
     border: 1px solid lightgrey;
+    align-items: center;
   }
 
   .fa {
-    padding: 1% 1% 1% 1%;
+    margin: 0 5% 0 5%;
     font-size: 1em;
     width: auto;
     text-align: center;
@@ -94,7 +95,6 @@
     color: darkgray;*/
     color: black;
   }
-
 
   /* Nav menu */
   .topnav {
