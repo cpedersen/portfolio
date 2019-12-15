@@ -151,11 +151,11 @@
   }
 
   #hello {
-    padding: 40% 0 5% 0;
+    padding: 40% 0 0% 0;
   }
 
   .intro {
-    padding: 3% 10% 0% 10%; 
+    padding: 0% 10% 2% 10%; 
     font-size: 1em;
   }
 
@@ -168,17 +168,16 @@
   /* ABOUT ME PAGE */
   #bio {
     font-family: 'Muli', sans-serif;
-    /*padding: 10% 10% 10% 10%;*/
     text-align: left;
     line-height: 1.5;
   }
 
   #bio-header {
-    padding: 5% 0 5% 0;
+    padding: 5% 0 2% 0;
   }
 
   .bio-text {
-    padding: 0 0 5% 0;
+    padding: 0 0 0 0;
   }
 
   #hero-glasses {
@@ -188,6 +187,12 @@
     background-size: 45%;
     background-position: 85% 0%;
     background-repeat: no-repeat;
+  }
+
+  .lightbulbImage {
+    height: 40%;
+    width: 40%;
+
   }
 
   /* CONTACT PAGE */
@@ -265,12 +270,12 @@
 
 
 /* RESIZE SCREENS USING MEDIA QUERIES */
-/* Small phone screens */
-@media only screen and (min-width: 50px) and (max-width: 450px) 
+/* Very small phone screen (ex., iPhone 5/SE) */
+@media only screen and (max-width: 320px) 
 {
 
   .topnav a {
-    font-size: 2em;
+    font-size: 1.2em;
   }
 
   body {
@@ -297,17 +302,59 @@
     width: 3%;
   }
 
-  .topnav {
-    font-size: .7em;
+  #darkMoneyImg {
+    max-height: 300px;
+  }
+
+  #codeImg {
+    max-height: 180px;
+  }
+}
+
+
+/* Larger phone screen (ex., iPhone X) */
+@media only screen and (min-width: 375px) and (max-width: 649px)
+{
+
+  .topnav a {
+    font-size: 1.1em;
+  }
+
+  body {
+    font-size: 1.1em;
+  }
+
+  h1 {
+    font-size: 1.25em;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+  }
+
+  #contact-me {
+    font-size: 1.25em;
+  }
+
+  #intro {
+    font-size: 1.1em;
+  }
+
+  .links {
+    width: 3%;
   }
 
   #darkMoneyImg {
     max-height: 300px;
   }
+
+  #codeImg {
+    max-height: 300px;
+  }
 }
 
-/* Larger screens */
-@media only screen and (min-width: 451) and (max-width: 650px) 
+/* Tablet screens (ex., iPad) */
+@media only screen and (min-width: 650) and (max-width: 799)
 {
 
   .topnav a {
@@ -315,7 +362,7 @@
   }
 
   body {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   h1 {
@@ -338,13 +385,13 @@
     max-height: 400px;
   }
 
-  .topnav {
-    font-size: 1em;
+  #codeImg {
+    max-height: 200px;
   }
 }
 
-/* Largest screens */
-@media only screen and (min-width: 651) and (max-width: 1600px) 
+/* Low resolution full screens */
+@media only screen and (min-width: 800) 
 {
 
   .topnav a {
@@ -352,7 +399,7 @@
   }
 
   body {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   h1 {
@@ -374,9 +421,9 @@
   #darkMoneyImg {
     max-height: 800px;
   }
-
-  .topnav {
-    font-size: 1.6em;
+  
+  #codeImg {
+    max-height: 10px;
   }
 }
 
