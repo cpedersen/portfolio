@@ -6,7 +6,7 @@
   
   body {
     font-family: 'Muli', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     color: black;
     text-align: center;
     line-height: 1.5;
@@ -151,7 +151,8 @@
   }
 
   #hello {
-    padding: 40% 0 0% 0;
+    padding: 40% 15% 0% 15%;
+    line-size: 1.5;
   }
 
   .intro {
@@ -230,7 +231,7 @@
   .contact-item {
     text-align: center;
     font-size: 1em;
-    padding: 1%;
+    padding: 0%;
   }
 
 
@@ -268,6 +269,8 @@
  
 
 
+
+
 /* RESIZE SCREENS USING MEDIA QUERIES */
 /* Very small phone screen (ex., iPhone 5/SE) */
 @media only screen and (max-width: 320px) 
@@ -290,7 +293,7 @@
   }
 
   #contact-me {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
   #intro {
@@ -328,7 +331,7 @@
   }
 
   body {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   h1 {
@@ -410,7 +413,7 @@
 {
 
   .topnav a {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 
   body {
@@ -427,6 +430,10 @@
 
   #contact-me {
     font-size: 1.25em;
+  }
+
+  .contact-item {
+    padding: 0% 0% 0% 0%;
   }
 
   #intro {
