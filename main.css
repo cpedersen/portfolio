@@ -190,9 +190,8 @@
   }
 
   .lightbulbImage {
-    height: 40%;
-    width: 40%;
-
+    /*height: 40%;
+    width: 40%;*/
   }
 
   /* CONTACT PAGE */
@@ -309,6 +308,14 @@
   #codeImg {
     max-height: 180px;
   }
+
+  #lightbulbImg {
+    max-height: 150px;
+  }
+
+  #earthImg {
+    max-height: 10%;
+  }
 }
 
 
@@ -351,6 +358,10 @@
   #codeImg {
     max-height: 300px;
   }
+
+  #lightbulbImg {
+    max-height: 200px;
+  }
 }
 
 /* Tablet screens (ex., iPad) */
@@ -388,6 +399,10 @@
   #codeImg {
     max-height: 200px;
   }
+
+  #lightbulbImg {
+    max-height: 250px;
+  }
 }
 
 /* Low resolution full screens */
@@ -424,6 +439,10 @@
   
   #codeImg {
     max-height: 10px;
+  }
+
+  #lightbulbImg {
+    max-height: 250px;
   }
 }
 
