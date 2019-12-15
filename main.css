@@ -206,12 +206,8 @@
     background-repeat: no-repeat;
   }
 
-  #inner-container {
-
-  }
-
-  .earthImg {
-    height: 80%;
+  #earthImg {
+    height: 400px;
   }
 
   #contact-section {
@@ -317,7 +313,7 @@
   }
 
   #earthImg {
-    max-height: 10%;
+    height: 175px;
   }
 }
 
