@@ -439,7 +439,7 @@
 }
 
 /* Extra large device media query */
-@media only screen and (min-width: 1200px) 
+@media only screen and (min-width: 1600px) 
 {
   body, p, a {
     font-size: 22x;
