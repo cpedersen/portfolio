@@ -259,6 +259,12 @@
     float: right;
     display: block;
   }
+
+  .topnav {
+    z-index: 1;
+  }
+  /* overflow-hidden */
+  /* z-index */
 }
 
 @media only screen and (max-width: 600px) 
@@ -273,6 +279,10 @@
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .topnav {
+    z-index: 1;
   }
 }
 
