@@ -140,7 +140,7 @@
   }
 
   #hello-intro {
-    padding: 0% 10% 0% 10%; 
+    padding: 0% 10% 5% 10%; 
     flex-grow: 2;
   }
 
@@ -261,7 +261,7 @@
   }
 
   .topnav {
-    z-index: 1;
+    /*z-index: 1;*/
   }
   /* overflow-hidden */
   /* z-index */
@@ -282,7 +282,7 @@
   }
 
   .topnav {
-    z-index: 1;
+    /*z-index: 1;*/
   }
 }
 
@@ -318,10 +318,6 @@
   }
 
   /* About Me */
-  #hero-glasses {
-    
-  }
-
   #lightbulbImg {
     max-height: 200px;
   }
@@ -358,10 +354,6 @@
   }
 
   /* About Me */
-  #hero-glasses {
-    
-  }
-
   #lightbulbImg {
     max-height: 350px;
   }
@@ -399,10 +391,6 @@
   }
 
   /* About Me */
-  #hero-glasses {
-    
-  }
-
   #lightbulbImg {
     max-height: 400px;
   }
@@ -439,10 +427,6 @@
   }
 
   /* About Me */
-  #hero-glasses {
-    
-  }
-
   #lightbulbImg {
     max-height: 500px;
   }
@@ -452,7 +436,7 @@
 @media only screen and (min-width: 1600px) 
 {
   body, p, a {
-    font-size: 22x;
+    font-size: 22px;
   }
 
   h1 {
@@ -479,10 +463,6 @@
   }
 
   /* About Me */
-  #hero-glasses {
-    
-  }
-
   #lightbulbImg {
     max-height: 600px;
   }
