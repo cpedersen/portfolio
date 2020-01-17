@@ -250,15 +250,47 @@
     text-align: center;
   }
  
+  #darkMoneyImg {
+    border: 1px solid black;
+  }
 
+  #smithsonianImg {
+    border: 1px solid black;
+    width: 75%;
+  }
 
+  .h2-portfolio {
+    padding: 16px 0px 16px 0px;
+  }
+
+  .portfolio-dark-money {
+    border-top-style: ridge;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-color: #F0F0F0;
+    padding: 0% 5% 5% 5%;
+    border-width: 20px;
+    margin: auto;
+  }
+
+  .portfolio-smithsonian {
+    border-top-style: ridge;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-color: #F0F0F0;
+    padding: 0% 5% 5% 5%;
+    border-width: 20px;
+    margin: auto;
+  }
 
 
 /* Extra small device media query */
 @media only screen and (max-width: 600px) 
 {
   body, p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   h1 {
