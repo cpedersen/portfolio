@@ -256,7 +256,6 @@
 
   #smithsonianImg {
     border: 1px solid black;
-    width: 50%;
   }
 
   .h2-portfolio {
@@ -311,6 +310,11 @@
     max-height: 275px;
   }
 
+  #smithsonianImg {
+    max-height: 200px;
+  }
+
+
   /* Contact Me */
   #earthImg {
     height: 275px;
@@ -345,6 +349,10 @@
   /* Portfolio */
   #darkMoneyImg {
     max-height: 350px;
+  }
+
+  #smithsonianImg {
+    max-height: 275px;
   }
 
   /* Contact Me */
@@ -384,6 +392,10 @@
     max-height: 400px;
   }
 
+  #smithsonianImg {
+    max-height: 325px;
+  }
+
   /* Contact Me */
   #earthImg {
     height: 400px;
@@ -420,6 +432,10 @@
     max-height: 500px;
   }
 
+  #smithsonianImg {
+    max-height: 425px;
+  }
+
   /* Contact Me */
   #earthImg {
     height: 500px;
@@ -454,6 +470,10 @@
   /* Portfolio */
   #darkMoneyImg {
     max-height: 600px;
+  }
+
+  #smithsonianImg {
+    max-height: 525px;
   }
 
   /* Contact Me */
