@@ -259,6 +259,10 @@ footer a:hover {
   border: 1px solid black;
 }
 
+#cosmosImg {
+  border: 1px solid black;
+}
+
 .h2-portfolio {
   padding: 16px 0px 16px 0px;
 }
@@ -324,6 +328,10 @@ footer a:hover {
     max-height: 200px;
   }
 
+  #cosmosImg {
+    max-height: 275px;
+  }
+
   /* Contact Me */
   #earthImg {
     height: 275px;
@@ -362,6 +370,10 @@ footer a:hover {
 
   #smithsonianImg {
     max-height: 275px;
+  }
+
+  #cosmosImg {
+    max-height: 350px;
   }
 
   /* Contact Me */
