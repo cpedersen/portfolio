@@ -403,6 +403,10 @@ footer a:hover {
     max-height: 325px;
   }
 
+  #cosmosImg {
+    max-height: 400px;
+  }
+
   /* Contact Me */
   #earthImg {
     height: 400px;
