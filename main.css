@@ -285,6 +285,17 @@ footer a:hover {
   margin: auto;
 }
 
+.portfolio-cosmos {
+  border-top-style: ridge;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-color: #f0f0f0;
+  padding: 0% 5% 5% 5%;
+  border-width: 20px;
+  margin: auto;
+}
+
 /* Extra small device media query */
 @media only screen and (max-width: 600px) {
   body,
