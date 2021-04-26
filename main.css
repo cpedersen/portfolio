@@ -263,6 +263,10 @@ footer a:hover {
   border: 1px solid black;
 }
 
+#spotifyImg {
+  border: 1px solid black;
+}
+
 .h2-portfolio {
   padding: 16px 0px 16px 0px;
 }
@@ -290,6 +294,17 @@ footer a:hover {
 }
 
 .portfolio-cosmos {
+  border-top-style: ridge;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-color: #f0f0f0;
+  padding: 0% 5% 5% 5%;
+  border-width: 20px;
+  margin: auto;
+}
+
+.portfolio-spotify {
   border-top-style: ridge;
   border-left-style: none;
   border-right-style: none;
@@ -329,6 +344,10 @@ footer a:hover {
   }
 
   #cosmosImg {
+    max-height: 275px;
+  }
+
+  #spotifyImg {
     max-height: 275px;
   }
 
@@ -376,6 +395,10 @@ footer a:hover {
     max-height: 500px;
   }
 
+  #spotifyImg {
+    max-height: 500px;
+  }
+
   /* Contact Me */
   #earthImg {
     height: 350px;
@@ -416,6 +439,10 @@ footer a:hover {
   }
 
   #cosmosImg {
+    max-height: 500px;
+  }
+
+  #spotifyImg {
     max-height: 500px;
   }
 
@@ -462,6 +489,10 @@ footer a:hover {
     max-height: 500px;
   }
 
+  #spotifyImg {
+    max-height: 500px;
+  }
+
   /* Contact Me */
   #earthImg {
     height: 500px;
@@ -503,6 +534,10 @@ footer a:hover {
   }
 
   #cosmosImg {
+    max-height: 700px;
+  }
+
+  #spotifyImg {
     max-height: 700px;
   }
 
